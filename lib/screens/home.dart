@@ -19,8 +19,30 @@ class _HomeState extends State<Home> {
           FlatButton.icon(
               onPressed: () {},
               icon: Icon(Icons.person),
-              label: Text('Sign In'))
+              label: Text('Sign In')),
+          FlatButton.icon(
+            icon: Icon(Icons.search),
+            onPressed: () {},
+            label: Text(''),
+          )
         ],
+      ),
+      body: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/night.png'),
+            fit: BoxFit.cover,
+          ),
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        backgroundColor: Colors.red[800],
+        child: Icon(
+          Icons.add,
+          color: Colors.white,
+        ),
+        tooltip: 'Add a note',
       ),
     );
   }
