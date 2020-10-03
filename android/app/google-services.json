@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "993358340144",
+    "firebase_url": "https://personaldiary-bd67b.firebaseio.com",
+    "project_id": "personaldiary-bd67b",
+    "storage_bucket": "personaldiary-bd67b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993358340144:android:26e9b19361517474f3cdf5",
+        "android_client_info": {
+          "package_name": "com.example.personal_diary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993358340144-junftgd82vdan5uu16hqnqp8tuii1cdv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHLCPy4GtHdIc7Z8wi5JIVqK0R4Y_KzTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993358340144-junftgd82vdan5uu16hqnqp8tuii1cdv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
